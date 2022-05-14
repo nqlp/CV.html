@@ -1,0 +1,65 @@
+
+
+/* -------------------------------------------------------------------------------*/
+/* TESTER SEULEMENT, IL FAU ENLEVER APRES */
+/* TEST */
+.imageFlottante {
+	float: left;
+}
+
+.clearFloat
+{
+    clear: both;
+
+}
+
+/* -------------------------------------------------------------------------------*/
+
+
+.center {
+	text-align:center;
+}
+
+.italique {
+	font-style: italic;
+}
+
+.gras {
+	font-weight: bold;
+}
+
+#Paul { 
+	color: red;
+ }
+
+/* Headings */
+
+h1 {
+	font-family: Arial, Verdana, Helvetica, Tahoma, sans-serif;
+	font-size: large;
+}
+
+h2, h3 {
+	font-family: Arial, Verdana, Helvetica, Tahoma, sans-serif;
+	font-size: medium;
+}
+
+h4 {
+	font-size: large;
+}
+
+/* Pour le dark mode */
+
+body{
+	background-color: black;
+	color: white;
+}
+p {
+	font-family: Arial, Verdana, Helvetica, Tahoma, sans-serif;
+}
+
+li {
+	font-family: Arial, Verdana, Helvetica, Tahoma, sans-serif;
+	font-size: medium;
+	text-align: justify;
+}
