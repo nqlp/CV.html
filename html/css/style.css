@@ -16,9 +16,11 @@
 /* -------------------------------------------------------------------------------*/
 
 
-.center {
+.center, a:link {
 	text-align:center;
+	color: white;
 }
+
 
 .italique {
 	font-style: italic;
@@ -27,10 +29,6 @@
 .gras {
 	font-weight: bold;
 }
-
-#Paul { 
-	color: red;
- }
 
 /* Headings */
 
