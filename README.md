@@ -1,6 +1,6 @@
 # CV
 
-I am learning about HTML.
+I am learning about HTML and CSS.
 
 
 ## TODO:
