@@ -15,19 +15,9 @@
 
 /* -------------------------------------------------------------------------------*/
 
-
 .center, a:link {
 	text-align:center;
 	color: white;
-}
-
-
-.italique {
-	font-style: italic;
-}
-
-.gras {
-	font-weight: bold;
 }
 
 /* Headings */
@@ -52,6 +42,7 @@ body{
 	background-color: black;
 	color: white;
 }
+
 p {
 	font-family: Arial, Verdana, Helvetica, Tahoma, sans-serif;
 }
