@@ -1,6 +1,6 @@
-# CV
+# Goals :
 
-I am learning about HTML and CSS.
+Learn HTML and CSS.
 
 
 ## TODO:
