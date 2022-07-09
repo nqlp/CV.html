@@ -6,10 +6,16 @@
 
 h1 {
 	font-family: Arial, Verdana, Helvetica, Tahoma, sans-serif;
-	font-size: large;
+	font-size: x-large;
 }
 
-h2, h3 {
+h2 {
+	font-family: Arial, Verdana, Helvetica, Tahoma, sans-serif;
+	font-size: large;
+	text-align: left;
+} 
+
+h3 {
 	font-family: Arial, Verdana, Helvetica, Tahoma, sans-serif;
 	font-size: medium;
 	text-align: left;
@@ -29,7 +35,10 @@ li {
 	text-align: justify;
 }
 
-.dark {
-    background-color: black;
-    color: white;
+.icon {
+	width: 30px;
+	height: 30px;
+}
+a {
+	text-decoration: none;
 }
