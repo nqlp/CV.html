@@ -1,9 +1,14 @@
-# Goals :
+*English will follow*
 
-Learn HTML and CSS.
+# Objectif :
 
+Apprendre HTML et CSS en rédigeant mon CV.
+
+# Goals : 
+
+Learn HTML and CSS by doing CV.
 
 # TODO :
 - [x] Resize github's icon
-- [ ] Make github's icon redirects to GitHub
+- [x] Make github's icon redirects to GitHub
 - [ ] Deploy on GitHub Pages
