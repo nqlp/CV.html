@@ -1,12 +1,12 @@
 *English will follow*
 
-# Objectif :
+# Objectif
 
 Apprendre HTML et CSS en rédigeant mon CV.
 
 **Note : Veuillez prendre en note que le CV n'est pas à jour.**
 
-# Goals : 
+# Goals 
 
 Learn HTML and CSS by doing CV.
 
