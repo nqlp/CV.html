@@ -1,97 +1,174 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang="fr">
 
 <head>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" href="css/style.css" />
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title> Paul Nguyen's CV </title>
-	<script src="JavaScript/JavaScript.js" async></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paul Nguyen - CV</title>
+    <link rel="stylesheet" href="..\CV.css">
+    <script src="..\CV.js"></script>
 </head>
 
 <body>
+    <header>
+        <h1>PAUL NGUYEN </h1>
+        <a href="mailto:quang-long-paul.nguyen.1@ens.etsmtl.ca"><img src="..\html\images\email_icon.png" /></a>
+        <a href="tel:+5149127740"> <img src="..\html\images\phone_icon.png" /></a>
 
-	<div>
-		<div class="center">
-			<h1> PAUL NGUYEN </h1>
-			<h1> MONTRÉAL, QUÉBEC, H1M2B6 </h1>
-			<H2>Français, Anglais, Vietnamien (débutant)</H2>
-			<p>
-				<a href="mailto:quang-long-paul.nguyen.1@ens.etsmtl.ca">
-					<img class="icon" src="images/email_icon.png" title="Email" />
-				</a>
+    </header>
+    <div class="tab-container">
+        <div class="tabs">
+            <div class="tab-link active" data-tab="profil-tab">Profil</div>
+            <div class="tab-link" data-tab="personal-projects-tab">Projets Personnels</div>
+            <div class="tab-link" data-tab="study-projects-tab">Projets d'Études</div>
+        </div>
 
-				<a href="https://github.com/iPaul-N" target="_blank">
-					<img class="icon" src="images/github_icon.png" alt="github's icon" title="Paul's GitHub" />
-				</a>
-			</p>
-		</div>
+        <div id="profil-tab" class="tab active">
+            <div>
+                <section class="profile">
+                    <h2>Profil</h2>
+                    <p>J'ai conçu et réalisé une grue avec commande manuelle, intégrant une communication sans fil
+                        pour
+                        le contrôle. J'ai utilisé SolidWorks, Altium et programmé l'automatisation en langage C.
+                        Cette
+                        expérience a renforcé mes compétences en communication et mon esprit d'équipe. Nous avons
+                        atteint les demi-finales d'une compétition. Je recherche maintenant de nouvelles
+                        opportunités
+                        pour apprendre de nouvelles technologies.</p>
+                </section>
 
-		<section>
-			<h2> EXPÉRIENCES </h2>
-			<h3> Aide-moniteur - Loisirs St-Fabien - <strong> Été 2019 </strong> </h3>
-			<ul>
-				<li> Assurer la sécurité des enfants lors des déplacements; </li>
-				<li> Assister le moniteur pour l'animation des ateliers; </li>
-				<li> Appliquer les règles de discipline auprès des jeunes. </li>
-			</ul>
-		</section>
+                <section class="skills">
+                    <h2>Connaissances Particulières</h2>
+                    <h3>Langages de programmation :</h3>
+                    <ul>
+                        <li>Java, Python (débutant), C (débutant), TypeScript / JavaScript.</li>
+                    </ul>
+                    <h3>Logiciels :</h3>
+                    <ul>
+                        <li>Eclipse, Visual Studio, Visual Studio Code, DataGrip, IntelliJ IDEA, Oracle SQL
+                            Developer,
+                            Suite MS Office, Cisco Packet Tracer & Wireshark, HTML & CSS, Node.js.</li>
+                    </ul>
+                    <h3>Environnements :</h3>
+                    <ul>
+                        <li>Windows & macOS.</li>
+                    </ul>
+                    <h3>Cadriciel :</h3>
+                    <ul>
+                        <li>Express.</li>
+                    </ul>
+                    <h3>SGBD :</h3>
+                    <ul>
+                        <li>MongoDB, Oracle, MySQL.</li>
+                    </ul>
+                    <h3>Outils :</h3>
+                    <ul>
+                        <li>GitHub.</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
 
-		<section>
-			<h3> Commis de crèmerie - SAPA <strong> - Été 2018 </strong> </h3>
-			<ul>
-				<li> Préparer les commandes pour les clients </li>
-			</ul>
-		</section>
+        <div id="personal-projects-tab" class="tab">
+            <section class="personal-projects">
+                <h2>Projets Personnels</h2>
+                <ul>
+                    <li>
+                        <h3>Été 2023 - MOVIES</h3>
+                        <ul class="bullets-points">
+                            <li>Utiliser Node.js pour le côté serveur;</li>
+                            <li>Programmer en TypeScript / JavaScript</li>
+                            <li>Gérer les versions avec GitHub</li>
+                            <li>Stocker les données dans MongoDB</li>
+                            <li>Styler avec CSS</li>
+                            <li>Développer avec Express en tant que cadre de Node.js</li>
+                            <li>Suivre l'architecture MVC</li>
+                            <li><a href="https://github.com/nqlp/movies">https://github.com/nqlp/movies</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>Été 2023 - TUTORIAL.BI — POWER BI</h3>
+                        <ul class="bullets-points">
+                            <li>Apprendre la base de Power BI</li>
+                            <li><a href="https://github.com/nqlp/Tutorial.BI">https://github.com/nqlp/Tutorial.BI</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>Été 2023 - TUTORIAL.PY — PYTHON</h3>
+                        <ul class="bullets-points">
+                            <li>Apprendre la base de Python</li>
+                            <li>Extraire et afficher les données d'un fichier Excel</li>
+                            <li>Utiliser pandas pour analyser les données</li>
+                            <li><a href="https://github.com/nqlp/Tutorial.py">https://github.com/nqlp/Tutorial.py</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+        </div>
 
-		<section>
-			<h2> FORMATIONS SCOLAIRES </h2>
-			<ul>
-				<li> École de technologie supérieure <i> (ÉTS) </i> - MONTRÉAL, QUÉBEC - Baccalauréat en génie logiciel
-					<strong> (2022 - PRÉSENT) </strong>
-				</li>
-				<li> École de technologie supérieure <i> (ÉTS) </i> - MONTRÉAL, QUÉBEC - Cheminement Universitaire en
-					Technologie
-				<li> Collège de Rosemont - MONTRÉAL, QUÉBEC - Sciences de la nature <strong> (2017 - 2020) </strong>
-				</li>
-			</ul>
-		</section>
-
-		<section>
-			<h2> COMPÉTENCES INFORMATIQUES </h2>
-			<ul>
-				<li> Java (débutant); </li>
-				<li> Python (débutant); </li>
-				<li> SQL (débutant); </li>
-				<li> OS : Windows & MacOS; </li>
-				<li> IDE : Visual Studio Code, Visual Studio, IntelliJ IDEA, Eclipse; </li>
-				<li> Microsoft Suite Office : Word, Excel, PowerPoint & Outlook; </li>
-				<li> GitHub; </li>
-				<li> HTML, CSS; </li>
-			</ul>
-		</section>
-	</div>
-
-	<section>
-		<h2> PROJETS D'ÉTUDES </h2>
-		<h3> <b> Automatisation d'une grue - Hiver 2023 </b> </h3>
-		<ul>
-			<li> Modéliser de pièces avec SolidWorks; </li>
-			<li> Automatiser d'une grue en langage C; </li>
-			<li> Utiliser d'AutoCAD pour la découpe au laser; </li>
-			<li> Configurer de la manette de contrôle de la grue; </li>
-			<li> Collaborer avec des partenaires de différents domaines pour favoriser l'apprentissage collectif. </li>
-		</ul>
-
-		<h3> <b> TripleVue </b> </h3>
-		<ul>
-			<li> Implémenter des options de translation, zoom, glisser et déposer pour les images; </li>
-			<li> Créer une barre de menu; </li>
-		</ul>
-		</li>
-
-	</section>
-
+        <div id="study-projects-tab" class="tab">
+            <section class="study-projects">
+                <h2>Projets d'Études</h2>
+                <ul>
+                    <li>
+                        <h3>Été 2023 - Prototypage de Moodle</h3>
+                        <ul class="bullets-points">
+                            <li>Implémenter des tests avec Jest;</li>
+                            <li>Programmer en TypeScript / JavaScript</li>
+                            <li>Utiliser Node.js pour le côté serveur</li>
+                            <li>Collaborer et partager le code avec les collègues via GitHub</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>Hiver 2023 - TripleVue</h3>
+                        <ul class="bullets-points">
+                            <li>Implémenter des options de translation, zoom, glisser et déposer pour les images
+                            </li>
+                            <li>Créer une barre de menu</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>Hiver 2022 - Gestion des opérations maintenances</h3>
+                        <ul class="bullets-points">
+                            <li>Insérer des données avec SQL;</li>
+                            <li>Développer avec PL/SQL;</li>
+                            <li>Utiliser Oracle SQL Developer</li>
+                            <li>Utiliser DataGrip</li>
+                            <li>Créer des scripts SQL</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>Hiver 2022 - Prototypage de jeu de rôle</h3>
+                        <ul class="bullets-points">
+                            <li>Générer un labyrinthe</li>
+                            <li>Créer une interface graphique</li>
+                            <li>Programmer en Java</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>Hiver 2022 - Automatisation d'une grue</h3>
+                        <ul class="bullets-points">
+                            <li>Modéliser des pièces avec SolidWorks</li>
+                            <li>Automatiser d'une grue en langage C</li>
+                            <li>Utiliser d'AutoCAD pour la découpe au laser</li>
+                            <li>Configurer la manette de contrôle pour la grue</li>
+                            <li>Collaborer avec des partenaires de différents domaines pour favoriser
+                                l'apprentissage
+                                collectif</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>Automne 2021 - Modélisation d'une coupe tuyau à cliquet</h3>
+                        <ul class="bullets-points">
+                            <li>Modéliser des pièces avec SolidWorks</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </div>
 </body>
 
 </html>

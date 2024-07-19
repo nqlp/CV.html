@@ -14,3 +14,4 @@ Learn HTML and CSS by doing CV.
 - [x] Resize github's icon
 - [x] Make github's icon redirects to GitHub
 - [ ] Deploy on GitHub Pages
+- [ ] Update CV

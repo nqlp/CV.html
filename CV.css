@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tab-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background: white   ; /* Couleur de fond */
+    padding-top: 70px; /* Espace en haut */
+    padding-bottom: 10px; /* Espace en bas pour plus de visibilité */
+    min-height: 70px; /* Hauteur minimale */
+    border-bottom: #0779e4 3px solid; /* Bordure en bas */
+    width: 100%; /* Largeur complète */
+    text-align: center; /* Centrer le texte */
+    z-index: 1000; /* S'assurer qu'il est au-dessus des autres éléments */
+    position: relative; /* S'assurer qu'il n'est pas caché par d'autres éléments positionnés */
+}
+
+
+h1,
+h2,
+h3 {
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 5px 0;
+}
+
+a {
+    color: #0779e4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.tab {
+    display: none;
+}
+
+.tab.active {
+    display: block;
+}
+
+.tabs {
+    display: flex;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.tabs div {
+    flex: 1;
+    padding: 10px;
+    background: blue;
+    text-align: center;
+    border: 1px solid #ccc;
+    color: white;
+}
+
+.tabs div.active {
+    background: blue;
+    color: #fff;
+}
+
+
+.bullets-points {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
