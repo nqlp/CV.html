@@ -8,7 +8,7 @@ Apprendre HTML et CSS en rédigeant mon CV.
 
 # Goals 
 
-Learn HTML and CSS by doing CV.
+Learn HTML and CSS by doing my CV.
 
 # TODO :
 - [x] Resize github's icon
