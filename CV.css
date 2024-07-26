@@ -20,15 +20,24 @@ body {
 }
 
 header {
-    background: white   ; /* Couleur de fond */
-    padding-top: 70px; /* Espace en haut */
-    padding-bottom: 10px; /* Espace en bas pour plus de visibilité */
-    min-height: 70px; /* Hauteur minimale */
-    border-bottom: #0779e4 3px solid; /* Bordure en bas */
-    width: 100%; /* Largeur complète */
-    text-align: center; /* Centrer le texte */
-    z-index: 1000; /* S'assurer qu'il est au-dessus des autres éléments */
-    position: relative; /* S'assurer qu'il n'est pas caché par d'autres éléments positionnés */
+    background: white;
+    /* Couleur de fond */
+    padding-top: 70px;
+    /* Espace en haut */
+    padding-bottom: 10px;
+    /* Espace en bas pour plus de visibilité */
+    min-height: 70px;
+    /* Hauteur minimale */
+    border-bottom: #0779e4 3px solid;
+    /* Bordure en bas */
+    width: 100%;
+    /* Largeur complète */
+    text-align: center;
+    /* Centrer le texte */
+    z-index: 1000;
+    /* S'assurer qu'il est au-dessus des autres éléments */
+    position: relative;
+    /* S'assurer qu'il n'est pas caché par d'autres éléments positionnés */
 }
 
 
@@ -85,9 +94,10 @@ a:hover {
 }
 
 
-.bullets-points {
-    padding-left: 20px;
-    list-style-type: disc;
+li::before {
+    content: '✦';
+    color: #007BFF;
+    margin-right: 10px;
 }
 
 img {
@@ -104,9 +114,16 @@ img {
 .formation .years {
     font-size: 1em;
     margin: 10px 0;
+    font-weight: bold;
 }
 
 .formation .details {
     font-size: 1.2em;
     line-height: 1.5em;
+}
+
+.title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 10px 0;
 }
